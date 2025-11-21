@@ -1,0 +1,41 @@
+{
+  "name": "dnd-5e-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server providing access to D&D 5th Edition SRD data",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "dnd-5e-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "keywords": [
+    "mcp",
+    "dnd",
+    "dungeons-dragons",
+    "5e",
+    "srd",
+    "rpg",
+    "tabletop"
+  ],
+  "author": "Claude Code",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

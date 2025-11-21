@@ -1,0 +1,324 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "/opt/homebrew/bin/mcp-server-github",
+      "args": [],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+      }
+    },
+    "elevenlabs": {
+      "command": "/Users/rob/Claude/mcp-servers/elevenlabs-mcp-enhanced/elevenlabs-wrapper-enhanced.sh"
+    },
+    "brave-search": {
+      "command": "/Users/rob/.config/claude/mcp-servers/brave-search/brave-search-mcp/.venv/bin/python",
+      "args": [
+        "-m",
+        "brave_search_mcp.server"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "BSAFPgynQdf7waJC_myyD69xr33HhIJ"
+      }
+    },
+    "filesystem": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/.config/claude/mcp-servers/filesystem-wrapper.sh"
+      ],
+      "env": {
+        "FILESYSTEM_WRITABLE": "true",
+        "FILESYSTEM_VERBOSE": "true"
+      }
+    },
+    "memory": {
+      "command": "/bin/bash",
+      "args": [
+        "/Users/rob/Claude/mcp-servers/memory-supabase-wrapper.sh"
+      ]
+    },
+    "gemini": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/gemini-mcp-server/gemini-wrapper-fixed.sh"
+      ],
+      "env": {
+        "GEMINI_API_KEY": "AIzaSyD6Ki3ZtL19-Km9y8EQcywZvHJLDiRDyNk",
+        "DEBUG": "true"
+      }
+    },
+    "supabase-enhanced": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/supabase-corrected-wrapper.sh"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "sbp_641af9062fd071ddc7ab4562c8aa736a53da4fbc",
+        "SUPABASE_VERBOSE": "true"
+      }
+    },
+    "git": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/git-wrapper.sh"
+      ],
+      "env": {
+        "GIT_VERBOSE": "true"
+      }
+    },
+    "topia-helper": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/topia-wrapper-fixed.sh"
+      ],
+      "env": {
+        "DEBUG": "true"
+      }
+    },
+    "smartintern": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/smartintern-console-wrapper.sh"
+      ]
+    },
+    "video-audio-mcp": {
+      "command": "/Users/rob/Claude/mcp-servers/video-audio-mcp-python-wrapper.sh",
+      "args": []
+    },
+    "x_mcp": {
+      "command": "/Users/rob/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/rob/Claude/mcp-servers/x-mcp-server/x-mcp-main",
+        "run",
+        "x-mcp"
+      ],
+      "env": {
+        "TWITTER_API_KEY": "XoWUUwAOZH577J4XymLOIwN73",
+        "TWITTER_API_SECRET": "BbKZvGQXOaUQkCumgBcIi4gk6TXWmIbqdyiZjSOKG99372ogci",
+        "TWITTER_ACCESS_TOKEN": "1730642178207047680-mTywkoOkEd5nvgWRg2yeOlGZWAwLG8",
+        "TWITTER_ACCESS_TOKEN_SECRET": "dw4T5DRqYtPl6QkxL04Kq7BR9eQQUyUuWi1yArQfCRlFc"
+      }
+    },
+    "google-maps": {
+      "command": "/Users/rob/Claude/mcp-servers/google-maps-wrapper-fixed.sh",
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "AIzaSyCQ86Pap0oa0a47lCVcZ1IDXfM34IRkcW8"
+      }
+    },
+    "youtube": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/youtube-wrapper-simple.sh"
+      ],
+      "env": {
+        "YOUTUBE_API_KEY": "AIzaSyBifOJtfR-eVwN8PcHUE5JFKwp81zoxOdQ",
+        "DEBUG": "true"
+      }
+    },
+    "video-downloader": {
+      "command": "node",
+      "args": [
+        "/Users/rob/Claude/mcp-servers/video-downloader-direct/server.js"
+      ],
+      "env": {
+        "VIDEO_DOWNLOADER_VERBOSE": "true",
+        "VIDEO_DOWNLOADER_DEFAULT_DIR": "/Users/rob/Claude/resources/media/videos"
+      }
+    },
+    "mcp-pandoc": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/mcp-pandoc-wrapper-enhanced.sh"
+      ]
+    },
+    "pixverse-mcp-server": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/pixverse-mcp-server/pixverse-debug-wrapper.sh"
+      ],
+      "env": {
+        "PIXVERSE_API_KEY": "sk-8eb6804b90afd012cab890fe2ce926ee",
+        "DEBUG": "true"
+      }
+    },
+    "mcp-pdf-tools": {
+      "command": "/Users/rob/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/rob/Claude/mcp-servers/mcp-pdf-tools",
+        "run",
+        "pdf-tools"
+      ]
+    }
+  },
+  "servers": {
+    "github": {
+      "command": "/opt/homebrew/bin/mcp-server-github",
+      "args": [],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+      }
+    },
+    "elevenlabs": {
+      "command": "/Users/rob/Claude/mcp-servers/elevenlabs-mcp-enhanced/elevenlabs-wrapper-enhanced.sh"
+    },
+    "brave-search": {
+      "command": "/Users/rob/.config/claude/mcp-servers/brave-search/brave-search-mcp/.venv/bin/python",
+      "args": [
+        "-m",
+        "brave_search_mcp.server"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "BSAFPgynQdf7waJC_myyD69xr33HhIJ"
+      }
+    },
+    "filesystem": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/.config/claude/mcp-servers/filesystem-wrapper.sh"
+      ],
+      "env": {
+        "FILESYSTEM_WRITABLE": "true",
+        "FILESYSTEM_VERBOSE": "true"
+      }
+    },
+    "memory": {
+      "command": "/bin/bash",
+      "args": [
+        "/Users/rob/Claude/mcp-servers/memory-supabase-wrapper.sh"
+      ]
+    },
+    "gemini": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/gemini-mcp-server/gemini-wrapper-fixed.sh"
+      ],
+      "env": {
+        "GEMINI_API_KEY": "AIzaSyD6Ki3ZtL19-Km9y8EQcywZvHJLDiRDyNk",
+        "DEBUG": "true"
+      }
+    },
+    "supabase-enhanced": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/supabase-corrected-wrapper.sh"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "sbp_641af9062fd071ddc7ab4562c8aa736a53da4fbc",
+        "SUPABASE_VERBOSE": "true"
+      }
+    },
+    "git": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/git-wrapper.sh"
+      ],
+      "env": {
+        "GIT_VERBOSE": "true"
+      }
+    },
+    "topia-helper": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/topia-wrapper-fixed.sh"
+      ],
+      "env": {
+        "DEBUG": "true"
+      }
+    },
+    "smartintern": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/smartintern-console-wrapper.sh"
+      ]
+    },
+    "video-audio-mcp": {
+      "command": "/Users/rob/Claude/mcp-servers/video-audio-mcp-python-wrapper.sh",
+      "args": []
+    },
+    "x_mcp": {
+      "command": "/Users/rob/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/rob/Claude/mcp-servers/x-mcp-server/x-mcp-main",
+        "run",
+        "x-mcp"
+      ],
+      "env": {
+        "TWITTER_API_KEY": "XoWUUwAOZH577J4XymLOIwN73",
+        "TWITTER_API_SECRET": "BbKZvGQXOaUQkCumgBcIi4gk6TXWmIbqdyiZjSOKG99372ogci",
+        "TWITTER_ACCESS_TOKEN": "1730642178207047680-mTywkoOkEd5nvgWRg2yeOlGZWAwLG8",
+        "TWITTER_ACCESS_TOKEN_SECRET": "dw4T5DRqYtPl6QkxL04Kq7BR9eQQUyUuWi1yArQfCRlFc"
+      }
+    },
+    "google-maps": {
+      "command": "/Users/rob/Claude/mcp-servers/google-maps-wrapper-fixed.sh",
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "AIzaSyCQ86Pap0oa0a47lCVcZ1IDXfM34IRkcW8"
+      }
+    },
+    "youtube": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/youtube-wrapper-simple.sh"
+      ],
+      "env": {
+        "YOUTUBE_API_KEY": "AIzaSyBifOJtfR-eVwN8PcHUE5JFKwp81zoxOdQ",
+        "DEBUG": "true"
+      }
+    },
+    "video-downloader": {
+      "command": "node",
+      "args": [
+        "/Users/rob/Claude/mcp-servers/video-downloader-direct/server.js"
+      ],
+      "env": {
+        "VIDEO_DOWNLOADER_VERBOSE": "true",
+        "VIDEO_DOWNLOADER_DEFAULT_DIR": "/Users/rob/Claude/resources/media/videos"
+      }
+    },
+    "mcp-pandoc": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/mcp-pandoc-wrapper-enhanced.sh"
+      ]
+    },
+    "pixverse-mcp-server": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "/Users/rob/Claude/mcp-servers/pixverse-mcp-server/pixverse-debug-wrapper.sh"
+      ],
+      "env": {
+        "PIXVERSE_API_KEY": "sk-8eb6804b90afd012cab890fe2ce926ee",
+        "DEBUG": "true"
+      }
+    },
+    "mcp-pdf-tools": {
+      "command": "/Users/rob/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/rob/Claude/mcp-servers/mcp-pdf-tools",
+        "run",
+        "pdf-tools"
+      ]
+    }
+  }
+}
