@@ -1,0 +1,68 @@
+{
+  "campaign": {
+    "id": "3d54673e-0073-482d-a885-1fd9482747ab",
+    "name": "The-Last-Oasis",
+    "description": "Mock expansion of the-last-oasis.md",
+    "genre": "Fantasy",
+    "difficulty_level": "medium",
+    "campaign_length": "full",
+    "tone": "epic",
+    "setting_details": {},
+    "thematic_elements": {
+      "mainThemes": [],
+      "keyLocations": [],
+      "importantNPCs": [],
+      "recurringMotifs": []
+    }
+  },
+  "worlds": [
+    {
+      "id": "97495a9c-25fd-4e16-93f9-2d453f7a09d4",
+      "campaign_id": "mock-id",
+      "name": "Mock World",
+      "description": "Generated during dry run",
+      "climate_type": "temperate",
+      "magic_level": "standard",
+      "technology_level": "medieval"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "491b63dc-1576-423b-9437-8fe2ac2762d6",
+      "world_id": "mock-world-id",
+      "name": "Mock NPC",
+      "race": "Human",
+      "class_": "Fighter",
+      "level": 5,
+      "description": "Generated NPC",
+      "personality": "Brave",
+      "stats": {}
+    }
+  ],
+  "quests": [
+    {
+      "id": "84209ed4-9800-42a7-a2ce-3b07e8e7c8b3",
+      "campaign_id": "mock-id",
+      "title": "Mock Quest",
+      "description": "Sample quest",
+      "difficulty": "medium",
+      "quest_type": "main",
+      "prerequisites": {},
+      "rewards": {}
+    }
+  ],
+  "locations": [
+    {
+      "id": "e161ce04-fd7c-4f6c-90d6-94cd06624ea3",
+      "world_id": "mock-world-id",
+      "name": "Mock Location",
+      "location_type": "village",
+      "description": "Sample location",
+      "parent_location_id": null,
+      "coordinates": null
+    }
+  ],
+  "factions": [],
+  "history_events": [],
+  "memories": []
+}

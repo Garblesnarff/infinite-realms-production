@@ -1,0 +1,68 @@
+{
+  "campaign": {
+    "id": "20ef75e9-b1cb-4b5a-8c5c-4f7d01989a13",
+    "name": "The-Guns-Of-Dustwind",
+    "description": "Mock expansion of the-guns-of-dustwind.md",
+    "genre": "Fantasy",
+    "difficulty_level": "medium",
+    "campaign_length": "full",
+    "tone": "epic",
+    "setting_details": {},
+    "thematic_elements": {
+      "mainThemes": [],
+      "keyLocations": [],
+      "importantNPCs": [],
+      "recurringMotifs": []
+    }
+  },
+  "worlds": [
+    {
+      "id": "152080d8-5ee3-476d-ad8d-6c8017f72d28",
+      "campaign_id": "mock-id",
+      "name": "Mock World",
+      "description": "Generated during dry run",
+      "climate_type": "temperate",
+      "magic_level": "standard",
+      "technology_level": "medieval"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "a182445e-f585-4bb1-9cda-007a4ad64ad3",
+      "world_id": "mock-world-id",
+      "name": "Mock NPC",
+      "race": "Human",
+      "class_": "Fighter",
+      "level": 5,
+      "description": "Generated NPC",
+      "personality": "Brave",
+      "stats": {}
+    }
+  ],
+  "quests": [
+    {
+      "id": "50ba055c-f247-4230-a328-a2e8df7dc804",
+      "campaign_id": "mock-id",
+      "title": "Mock Quest",
+      "description": "Sample quest",
+      "difficulty": "medium",
+      "quest_type": "main",
+      "prerequisites": {},
+      "rewards": {}
+    }
+  ],
+  "locations": [
+    {
+      "id": "dd5df3a2-7502-4b52-a4e1-940067a799f4",
+      "world_id": "mock-world-id",
+      "name": "Mock Location",
+      "location_type": "village",
+      "description": "Sample location",
+      "parent_location_id": null,
+      "coordinates": null
+    }
+  ],
+  "factions": [],
+  "history_events": [],
+  "memories": []
+}

@@ -1,0 +1,68 @@
+{
+  "campaign": {
+    "id": "058f936f-640a-4a68-b19e-eda9faf6b049",
+    "name": "The-Anomalous-Continent-Of-Xylos",
+    "description": "Mock expansion of the-anomalous-continent-of-xylos.md",
+    "genre": "Fantasy",
+    "difficulty_level": "medium",
+    "campaign_length": "full",
+    "tone": "epic",
+    "setting_details": {},
+    "thematic_elements": {
+      "mainThemes": [],
+      "keyLocations": [],
+      "importantNPCs": [],
+      "recurringMotifs": []
+    }
+  },
+  "worlds": [
+    {
+      "id": "34705e29-5cf4-40fe-9bf6-996000dc86f6",
+      "campaign_id": "mock-id",
+      "name": "Mock World",
+      "description": "Generated during dry run",
+      "climate_type": "temperate",
+      "magic_level": "standard",
+      "technology_level": "medieval"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "295326cb-2d30-4cea-adbf-ce1246a63bdb",
+      "world_id": "mock-world-id",
+      "name": "Mock NPC",
+      "race": "Human",
+      "class_": "Fighter",
+      "level": 5,
+      "description": "Generated NPC",
+      "personality": "Brave",
+      "stats": {}
+    }
+  ],
+  "quests": [
+    {
+      "id": "ed588eb4-6716-4999-96cf-5a30af496418",
+      "campaign_id": "mock-id",
+      "title": "Mock Quest",
+      "description": "Sample quest",
+      "difficulty": "medium",
+      "quest_type": "main",
+      "prerequisites": {},
+      "rewards": {}
+    }
+  ],
+  "locations": [
+    {
+      "id": "0e3107bc-9b0c-443b-967c-fb4656e2e50f",
+      "world_id": "mock-world-id",
+      "name": "Mock Location",
+      "location_type": "village",
+      "description": "Sample location",
+      "parent_location_id": null,
+      "coordinates": null
+    }
+  ],
+  "factions": [],
+  "history_events": [],
+  "memories": []
+}

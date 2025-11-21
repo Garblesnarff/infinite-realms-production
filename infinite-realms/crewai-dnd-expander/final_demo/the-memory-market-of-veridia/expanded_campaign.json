@@ -1,0 +1,68 @@
+{
+  "campaign": {
+    "id": "665e6f7e-4c2f-4e43-ad6e-75e8043ccee1",
+    "name": "The-Memory-Market-Of-Veridia",
+    "description": "Mock expansion of the-memory-market-of-veridia.md",
+    "genre": "Fantasy",
+    "difficulty_level": "medium",
+    "campaign_length": "full",
+    "tone": "epic",
+    "setting_details": {},
+    "thematic_elements": {
+      "mainThemes": [],
+      "keyLocations": [],
+      "importantNPCs": [],
+      "recurringMotifs": []
+    }
+  },
+  "worlds": [
+    {
+      "id": "900c67c2-a0bf-477f-9a31-c38753fd55dc",
+      "campaign_id": "mock-id",
+      "name": "Mock World",
+      "description": "Generated during dry run",
+      "climate_type": "temperate",
+      "magic_level": "standard",
+      "technology_level": "medieval"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "a01d0e58-9807-4137-8b0f-294cd93f7b98",
+      "world_id": "mock-world-id",
+      "name": "Mock NPC",
+      "race": "Human",
+      "class_": "Fighter",
+      "level": 5,
+      "description": "Generated NPC",
+      "personality": "Brave",
+      "stats": {}
+    }
+  ],
+  "quests": [
+    {
+      "id": "6a2786a4-5894-4b60-a006-7e77ad5c0b28",
+      "campaign_id": "mock-id",
+      "title": "Mock Quest",
+      "description": "Sample quest",
+      "difficulty": "medium",
+      "quest_type": "main",
+      "prerequisites": {},
+      "rewards": {}
+    }
+  ],
+  "locations": [
+    {
+      "id": "881ba13a-6bfb-4236-a12a-1027d1dc54e0",
+      "world_id": "mock-world-id",
+      "name": "Mock Location",
+      "location_type": "village",
+      "description": "Sample location",
+      "parent_location_id": null,
+      "coordinates": null
+    }
+  ],
+  "factions": [],
+  "history_events": [],
+  "memories": []
+}

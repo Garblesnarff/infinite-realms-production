@@ -1,0 +1,68 @@
+{
+  "campaign": {
+    "id": "4527c126-9d6b-4dac-89b0-bba313d9573a",
+    "name": "The-Price-Of-Power",
+    "description": "Mock expansion of the-price-of-power.md",
+    "genre": "Fantasy",
+    "difficulty_level": "medium",
+    "campaign_length": "full",
+    "tone": "epic",
+    "setting_details": {},
+    "thematic_elements": {
+      "mainThemes": [],
+      "keyLocations": [],
+      "importantNPCs": [],
+      "recurringMotifs": []
+    }
+  },
+  "worlds": [
+    {
+      "id": "864d08fb-61c7-46c3-a8d5-32fc0e271bbc",
+      "campaign_id": "mock-id",
+      "name": "Mock World",
+      "description": "Generated during dry run",
+      "climate_type": "temperate",
+      "magic_level": "standard",
+      "technology_level": "medieval"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "ed1ca870-9ea2-43b8-9666-67072934814a",
+      "world_id": "mock-world-id",
+      "name": "Mock NPC",
+      "race": "Human",
+      "class_": "Fighter",
+      "level": 5,
+      "description": "Generated NPC",
+      "personality": "Brave",
+      "stats": {}
+    }
+  ],
+  "quests": [
+    {
+      "id": "269bc946-9177-47d9-b222-493e7f2245f5",
+      "campaign_id": "mock-id",
+      "title": "Mock Quest",
+      "description": "Sample quest",
+      "difficulty": "medium",
+      "quest_type": "main",
+      "prerequisites": {},
+      "rewards": {}
+    }
+  ],
+  "locations": [
+    {
+      "id": "3eea0cf2-280f-443d-ad11-d9d3de4853f2",
+      "world_id": "mock-world-id",
+      "name": "Mock Location",
+      "location_type": "village",
+      "description": "Sample location",
+      "parent_location_id": null,
+      "coordinates": null
+    }
+  ],
+  "factions": [],
+  "history_events": [],
+  "memories": []
+}
